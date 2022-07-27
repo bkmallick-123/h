@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* --------layout style-------- */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12, .row {
+    width: 100%;
+    float: left;
+}
+
+/* --------Header Start--------- */
+
+header{
+   width: 100%;
+   height: 70px;
+   background-color: #223047;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+ nav{
+   padding: 12px 0px;
+   padding-bottom: 75px;
+} 
+.logo-part img{
+    margin-left: 80px ;
+    width: 100px;
+    height: 40px;
+}
+
+.logo-part button{
+    width: 135px;
+    height: 40px;
+    background-color: #00fff0;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+.menu-part img{
+    width: 80px;
+    height: 40px;
+    margin-left: 90px;
+}
+.menu-part li{
+    display: inline-block;
+    padding: 10px;   
+}
+.menu-part li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    transition: ease-in-out 0.4s;
+}
+nav ul{
+    margin-left: 50px;
+}
+.menu-part li a:hover{
+    background-color: rgba(87, 85, 85, 0.652);
+    border-radius: 5px;
+}
+.hero-part{
+    text-align: center;
+    color: #fff;
+}
+.hero-part h1{
+    font-size: 50px;
+}
+.hero-part p{
+    font-size: 16px;
+    margin-top: 25px;
+}
+.hero-btn-part{
+    margin: 50px 0px;
+}
+
+.btn-light{
+    background: white!important;
+    color: #000!important;
+    border: 1px solid #fff !important;
+}
+
+section{
+    background-color: #223047;
+}
+
+/* --------hero-part-------- */
+.hero-part-one h1{
+    color: white;
+    margin: 150px 0px 30px 200px;
+
+}
+.hero-part-one h6{
+    color: white;
+    margin: 50px 0px 40px 200px;
+    line-height: 20px;
+}
+.hero-box-part button{
+    background-color: #00fff0;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-bottom: 110px;
+}
+ .hero-box-part button1{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 110px;
+} 
+.img-part img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+/* ------------mainsection------------ */
+
+.info-box h1{
+      margin-top: 210px;
+      text-align: center;
+}
+
+.underline{
+    border-bottom: 5px solid #00fff0;
+    display: block;
+    width: 5%;
+    margin: 75px auto;
+
+}
+.info-first{
+    width: 260px;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.info-first h3{
+    margin-bottom: 35px;
+    margin-left: 110px;
+}
+.info-first p{
+    margin-left: 110px;
+    
+}
+
+.info-first img{
+    margin-bottom: 60px;
+    margin-left: 110px;
+}
+
+/* --------------Break Points--------------- */
+/* Mobile Device */
+@media only screen and (max-width: 600px){
+    .width{
+        background-color: aqua;
+    }
+}
+
+/* Tablet Device */
+@media (min-width: 601px) and (max-width: 768px){
+    .width{
+        background-color: red;
+    }
+}
+
+/* Laptop Device */
+@media (min-width: 769px) and (max-width: 999px){
+    .width{
+        background-color: blue;
+    }
+}
+
+
+
